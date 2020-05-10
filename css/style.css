@@ -168,6 +168,15 @@ footer
 	text-align: justify;
 
 }
+.floe{
+	display: flex;
+	width: auto;
+	background-image: url("../images/flo_chocolat.jpg"); 
+	height: 600px; /* You must set a specified height */
+  	background-position: center; /* Center the image */
+  	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover;
+}
 
 .juliette{
 	display: flex;
