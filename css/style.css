@@ -1,0 +1,200 @@
+html
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+
+
+	box-sizing: border-box;
+	padding: 0 10%;
+	/*width:100%;*/
+	background-color: whitesmoke;
+}
+
+ul {
+    height:75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+	margin:0 auto;
+    padding:0;
+}
+
+li a{
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	list-style: none;
+	color: gray;
+	font-weight:bold;
+}
+
+
+a:hover 
+{
+    text-decoration: underline;
+}
+
+a img:hover{
+	opacity: 50%;
+	border-radius: 10px;
+
+}
+
+
+
+.images1
+{
+	display: flex;
+	
+	
+
+
+	/* display: flex;
+	width: auto;
+	flex: 100%;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	padding: 2rem;
+	margin: 1;
+	list-style: none; 
+	background-color: yellow;
+	*/
+}
+
+.images1 img
+{
+	width: 32.2%;
+	height: auto;
+	
+}
+.images1 a{
+	margin: 0 10px;
+}
+.images1 a img{
+
+	width: 100%;
+	
+}
+
+/*.images1 img
+{
+	width: 32.2%;
+	height: auto;
+}*/
+
+
+
+
+
+
+.images2
+{
+	display: flex;
+	padding: 0 100px;
+}
+
+.images3
+{
+	display: flex;
+}
+
+.images3 img{
+	width:100%;
+	
+}
+
+
+
+
+
+
+img
+{
+	padding: 10px 10px;
+}
+
+img :hover{
+	opacity: 30%;
+}
+main
+{
+
+}
+
+
+footer
+{
+	height:100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+	margin:0 auto;
+	padding:0;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	list-style: none;
+	color: gray;
+	font-weight:bold;
+}
+
+.texte2 p{
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	list-style: none;
+	color: gray;
+	font-weight:bold;
+
+	margin-top: 60px;
+	font-size: 5rem;
+}
+
+
+.texte1{
+	display: flex;
+	align-content: flex-start;
+	margin-right: 40rem;
+}
+.texte1 p{
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	list-style: none;
+	color: gray;
+	font-size: x-large;
+	text-align: justify;
+
+}
+
+.juliette{
+	display: flex;
+	width: auto;
+	background-image: url("../images/juliette.jpg"); 
+	height: 600px; /* You must set a specified height */
+  	background-position: center; /* Center the image */
+  	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover;
+}
+
+
+
+
+/*@media screen and (max-width: 992px) {
+	body
+{
+	max-width: 700px;
+	background-color: blue;
+}
+main
+{
+	
+}
+
+body 
+{
+	min-width:768px;
+}*/
+
