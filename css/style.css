@@ -198,7 +198,35 @@ footer
   	background-size: cover;
 }
 
+.releve{
+	display: flex;
+	width: auto;
+	background-image: url("../images/releve.jpg"); 
+	height: 600px; /* You must set a specified height */
+  	background-position: center; /* Center the image */
+  	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover;
+}
 
+.argentique{
+	display: flex;
+	width: auto;
+	background-image: url("../images/argentique.jpg"); 
+	height: 600px; /* You must set a specified height */
+  	background-position: center; /* Center the image */
+  	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover;
+}
+
+.affiche{
+	display: flex;
+	width: auto;
+	background-image: url("../images/affiche.jpg"); 
+	height: 600px; /* You must set a specified height */
+  	background-position: center; /* Center the image */
+  	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover;
+}
 
 /*@media screen and (max-width: 992px) {
 	body
