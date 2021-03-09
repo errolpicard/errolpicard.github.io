@@ -1,0 +1,20 @@
+/* Style the header with a grey background and some padding */
+body, html {
+  height: 100%;
+  margin: 0;
+
+
+    /* The image used */
+    background-image: url(../images/index.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    
+}
+
+
+
+
+
